@@ -11,6 +11,7 @@ import Page4 from 'components/nav2/Page4.vue'
 import Page5 from 'components/nav2/Page5.vue'
 import Page6 from 'components/nav3/Page6.vue'
 import Page7 from 'components/nav3/Page7.vue'
+import materialManage from 'components/nav2/materialManage.vue'
 
 Vue.use(Router)
 Vue.use(Vuex)
@@ -42,7 +43,8 @@ export default new Router({
       iconCls: 'fa fa-briefcase',
       children: [
         { path: '/page4', component: Page4, name: '消息管理' },
-        { path: '/page5', component: Page5, name: '用户管理' }
+        { path: '/page5', component: Page5, name: '用户管理' },
+        { path: '/materialManage', component: materialManage, name: '素材管理' }
       ]
     },
     {
