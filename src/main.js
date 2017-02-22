@@ -9,9 +9,12 @@ import 'element-ui/lib/theme-default/index.css'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import Mock from './mock'
+import VueQuillEditor from 'vue-quill-editor'
+
+// use
 
 Mock.bootstrap()
-
+Vue.use(VueQuillEditor)
 Vue.use(ElementUI)
 Vue.use(Vuex)
 

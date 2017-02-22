@@ -20,6 +20,7 @@
     "mockjs": "^1.0.1-beta3",
     "nprogress": "^0.2.0",
     "vue": "^2.1.10",
+    "vue-quill-editor": "^1.1.1",
     "vue-router": "^2.2.0",
     "vuex": "^2.1.2"
   },
